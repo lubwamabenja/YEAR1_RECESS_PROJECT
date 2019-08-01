@@ -7,10 +7,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## About Laravel
+# UNITED FRONT FOR TRANSFORMATION (UFT)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
+The UFT member enrollment system is  designed to enable the agents to register new members of the political party, the administrator to list members enrolled in a given period of time, organized by district, agent, month, to graph displays of hierarchy,to distribute money to each of the agents in the different districts ,to display payment statements of the agent ,upgrade members to become agents and also keep track of the funds as received from the well-wishers and how the funds are distributed among the agents.
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
 - Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
