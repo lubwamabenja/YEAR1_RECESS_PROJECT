@@ -10,21 +10,17 @@
 # UNITED FRONT FOR TRANSFORMATION (UFT)
 
 The UFT member enrollment system is  designed to enable the agents to register new members of the political party, the administrator to list members enrolled in a given period of time, organized by district, agent, month, to graph displays of hierarchy,to distribute money to each of the agents in the different districts ,to display payment statements of the agent ,upgrade members to become agents and also keep track of the funds as received from the well-wishers and how the funds are distributed among the agents.
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## IMPLEMENTATION
+ The member enrollment system is a client-server-based system that runs on both a command line and graphical user interface, the latter being web-based. Its mode of operation is based on a set of functions that manipulate string data specifically, alphabetic and numeric as instructed by the agent, who utilizes the command line interface to issue tasks. The graphical user interface is utilized by the administrator for monitoring purposes. The system is aimed at achieving optimal performance while performing the following functions. Submitting a new member list for instance, the command “Addmember” inserts the member details, the command “Check-status” returns the list of members that have been registered, the command “get_statement” returns the payments of the logged-in users, the command “search” returns record from a file by name or date. At the
+administrator’s end, he will interact with a web interface to view the members enrolled in a given period of time organized by district,agent,month as selected by the administrator; Display hierarchy, at the top of each is an agent head displayed by district; Display distribution of money to each of the agents in the different districts; Display graphs of variation of funding per month and per period; Displays graphs showing donations by month and well-wisher as selected by the administrator; Display the total number of members; Display graph that shows variation in percentage change in enrollment figures.
+The web interface shall also recommend the upgrading of members to agents in case the member recommends more than 40 members.
+The web interface has been implemented using laravel framework and the command line was implemented using C language.
+Xampp server was used for the database and the system has been hosted on heroku.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1400 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+
 
 ## Laravel Sponsors
 
