@@ -21,12 +21,14 @@ The web interface shall also recommend the upgrading of members to agents in cas
 - **The web interface has been implemented using laravel framework and the command line was implemented using C language.**
 - **Xampp server was used for the database and the system has been hosted on [heroku](https://laravelrecessproject.herokuapp.com/).**
 
+# Installation
+* run the following command in terminal
+```
+git clone 
 
+```
 
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- **
 
 - **[Vehikl](https://vehikl.com/)**
 - **[Tighten Co.](https://tighten.co)**
