@@ -7,66 +7,41 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## About Laravel
+# UNITED FRONT FOR TRANSFORMATION
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The UFT member enrollment system is designed to enable the agents to register new members of the political party, the administrator to list members enrolled in a given period of time, organized by district, agent, month, to graph
+displays of hierarchy,to distribute money to each of the agents in the different districts ,to display payment statements of the agent ,upgrade members to become agents and also keep track of the funds as received from the well-wishers and how the funds are distributed among the agents.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## IMPLEMENTATION
+The member enrollment system is a client-server-based system that runs on both a command line and graphical user interface, the latter being web-based. Its mode of operation is based on a set of functions that manipulate string data specifically, alphabetic and numeric as instructed by the agent, who utilizes the command line interface to issue tasks. The graphical user interface is utilized by the administrator for monitoring purposes. 
+- **The system is aimed at achieving optimal performance while performing the following functions. **
+- Submitting a new member list for instance, the command “Addmember” inserts the member details, the command “Check-status” returns the list of members that have been registered, the command “get_statement” returns the payments of the logged-in users, the command “search” returns record from a file by name or date. 
+- At the administrator’s end, he will interact with a web interface to view the members enrolled in a given period of time organized by district,agent,month as selected by the administrator;
+- Display hierarchy, at the top of each is an agent head displayed by district; Display distribution of money to each of the agents in the different districts; Display graphs of variation of funding per month and per period; Displays graphs showing donations by month and well-wisher as selected by the administrator; 
+- Display the total number of members; Display graph that shows variation in percentage change in enrollment figures.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## INSTALLATION
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- run the following commands from terminal:
+```
+ git clone https://github.com/lubwamabenja/YEAR1_RECESS_PROJECT.git
+ cd YEAR1_RECESS_PROJECT
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1400 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+```
+- install The following componets
+- **php
+- **xammp
+- **composer
+- **Laravel
+- **composer require "consoletvs/charts:5.*"
 
-## Laravel Sponsors
+- create a database named **recess_political_party** and run the following commands
+```
+php artisan migrate
+php artisan serve
+```
+- The UTF system was designed using laravel a php frame work and C language for the command line interface
+- The system has been hosted on heroku [heroku](https://laravelrecessproject.herokuapp.com).
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
